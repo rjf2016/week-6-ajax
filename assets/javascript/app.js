@@ -77,7 +77,7 @@ $("#giphyResults").html("");  //clear the existing results
   //console.log("http://api.giphy.com/v1/gifs/search?limit=" + maxRows + "&rating=" + rating + "&q=" + searchString + category + "&api_key=dc6zaTOxFJmzC");
 
   $.ajax({
-    url: "http://api.giphy.com/v1/gifs/search?limit=" + maxRows + "&rating=" + rating + "&q=" + searchString + category + "&api_key=dc6zaTOxFJmzC",
+    url: "https://api.giphy.com/v1/gifs/search?limit=" + maxRows + "&rating=" + rating + "&q=" + searchString + category + "&api_key=dc6zaTOxFJmzC",
     type: "GET",
     success: function(response) 
     {
